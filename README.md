@@ -63,8 +63,6 @@ Ensure that the following Python packages are installed:
 - matplotlib
 - seaborn
 
-These can be installed using the `requirements.txt` file provided in the repository.
-
 ## API Key Setup
 
 This project uses the [Books API7](https://rapidapi.com/akshithp111/api/books-api7) from RapidAPI to fetch book data. To use the API, follow these steps:
@@ -76,7 +74,6 @@ This project uses the [Books API7](https://rapidapi.com/akshithp111/api/books-ap
    ```env
    API_KEY=your_api_key_here
    ```
-5. The scripts will automatically read the API key from the `.env` file.
 
 ## Contributors
 
