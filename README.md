@@ -1,4 +1,3 @@
-```markdown
 # Book Recommendation System
 
 This project, developed for the DS2500 course, is a book recommendation system that suggests books to users and visualizes similarities between books using various algorithms.
@@ -73,9 +72,9 @@ This project uses the [Books API7](https://rapidapi.com/akshithp111/api/books-ap
 1. Visit the [Books API7](https://rapidapi.com/akshithp111/api/books-api7) page on RapidAPI.
 2. Sign in or create an account on RapidAPI.
 3. Subscribe to the API to get your API key.
-4. Save the API key in a `.env` file in the project directory. The file should look like this:
+4. Add the API key to the api_recommendations.py file. The file should look like this:
    ```env
-   RAPIDAPI_KEY=your_api_key_here
+   API_KEY=your_api_key_here
    ```
 5. The scripts will automatically read the API key from the `.env` file.
 
